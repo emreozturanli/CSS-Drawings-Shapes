@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond</title>
+</head>
+<style>
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.diamond{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    transform: rotate(45deg);
+    
+}
+
+span:nth-child(1){
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid #47adfb;
+    border-left: 100px solid transparent;
+    border-right: 100px solid #2FA4FF;
+}
+
+span:nth-child(2){
+    position: absolute;
+    left: 50%;
+    top: 0;
+    border-top: 100px solid #1b93f0;
+    border-bottom: 100px solid #47adfb;
+    border-left: 100px solid #63b7f6;
+    border-right: 100px solid #2c9bf0;
+}
+
+span:nth-child(3){
+    position: absolute;
+    left: 0;
+    top: 50%;
+    border-top: 100px solid #1b93f0;
+    border-bottom: 100px solid #47adfb;
+    border-left: 100px solid #63b7f6;
+    border-right: 100px solid #2c9bf0;
+}
+
+span:nth-child(4){
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-top: 100px solid #1b93f0;
+    border-bottom: 100px solid #47adfb;
+    border-left: 100px solid #63b7f6;
+    border-right: 100px solid #2FA4FF;
+}
+
+</style>
+<body>
+    <div class="diamond">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>  
+</body>
+</html>
