@@ -1,5 +1,5 @@
 
-#CREATE A DIAMOND SHAPE WITH CSS
+# CREATE A DIAMOND SHAPE WITH CSS
 
 - Let's draw a diamond with HTML and CSS.
 
