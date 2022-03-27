@@ -29,4 +29,8 @@
 
 * Just make it more beautiful with changing colors.
 
+### RESULT
+
+![diamond](https://github.com/emreozturanli/Basic-CSS-Drawings-Shapes/blob/master/Diamond/diamond.png)
+
 ## HOPE YOU ENJOY IT.  
