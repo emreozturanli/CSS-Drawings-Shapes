@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.btn{
+    position: relative;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    box-shadow: 0 0 0 inset, 3px 4px 5px gray;
+    animation: button 3s cubic-bezier(0.16, 1, 0.3, 1)  infinite alternate;
+}
+
+@keyframes button{
+    0%{ width: 80px;
+        height: 80px;
+        background-color: antiquewhite;
+        box-shadow: 0 0 0 inset, 3px 4px 5px gray;
+    }
+    25%{width: 80px;
+        height: 80px;
+        background-color: antiquewhite;
+        box-shadow: 8px 8px 8px gray inset, 8px 8px 10px gray;
+    }
+    50%{width: 80px;
+        height: 280px;
+        background-color: antiquewhite;
+        box-shadow: 0px 0px 0px gray inset, 8px 8px 10px gray;
+    }
+    /* 75%{width: 380px;
+        height: 280px;
+        background-color: antiquewhite;
+        box-shadow: 0px 0px 0px gray inset, 8px 8px 10px gray;
+    } */
+    100%{width: 380px;
+        height: 280px;
+        background-color: antiquewhite;
+        box-shadow: 0px 0px 0px gray inset, 8px 8px 10px gray, 30px 30px 50px gray;
+    }
+}
