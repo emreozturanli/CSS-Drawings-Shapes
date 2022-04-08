@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(66, 66, 199);
+}
+
+.main-container{
+    margin: 200px auto;
+    padding: 30px 15px 15px 15px;
+    width: 600px;
+    height: 200px;
+    background-color: rgb(186, 179, 179);
+    border-radius: 10px;
+    display: flex;
+}
+
+/*LEFT CONTAINER*/
+
+.left{
+    flex: 1.5;
+    background-color: rgb(19, 19, 122);
+    border-radius: 4px;
+    position: relative;
+}
+
+.square{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(14, 14, 57);
+    
+}
+
+.square-1{
+    position: absolute;
+    left: 85px;
+    top: 40px;
+    border-left: 4px solid gray;
+    border-top: 4px solid gray;
+    border-right: 4px solid gray;
+}
+
+.square-2{
+    position: absolute;
+    left: 89px;
+    top: 80px;
+    
+    
+}
+
+.square-3{
+    position: absolute;
+    left: 85px;
+    top: 120px;
+    border-left: 4px solid gray;
+    border-bottom: 4px solid gray;
+    border-right: 4px solid gray;
+}
+
+.square-4{
+    position: absolute;
+    left: 45px;
+    top: 80px;
+    border-left: 4px solid gray;
+    border-top: 4px solid gray;
+    border-bottom: 4px solid gray;
+}
+
+.square-5{
+    position: absolute;
+    left: 129px;
+    top: 80px;
+    border-bottom: 4px solid gray;
+    border-top: 4px solid gray;
+    border-right: 4px solid gray;
+}
+
+/* MIDDLE CONTAINER*/
+
+.middle{
+    flex: 1.2;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(19, 19, 122);
+}
+
+.mid-item{
+    margin-bottom:10px ;
+}
+.mid-1{
+    height: 30px;
+    background-color: rgb(186, 179, 179) ;
+}
+.mid-2{
+    height: 30px;
+    background-color: rgb(186, 179, 179) ;
+}
+.mid-3{
+    height: 30px;
+    background-color: rgb(186, 179, 179) ;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 900;
+    color: brown;
+}
+.mid-4{
+    height: 50px;
+    background-color: rgb(186, 179, 179) ;
+    border: 8px inset rgb(224, 223, 223);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    background-color: #ffffff;
+    margin-top: 8px;
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+    
+}
+
+.mid-5{
+    height: 20px;
+    background-color: rgb(186, 179, 179) ;
+    margin:0;
+}
+
+/*RIGHT CONTAINER*/
+
+.right{
+    flex: 1.5;
+    background-color: rgb(19, 19, 122);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nintendo{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nintendo>p{
+    padding: 3px;
+    color: brown;
+    font-size: 1.3em;
+    font-weight: bolder;
+    border: 2px solid brown;
+    border-radius: 20px;
+} 
+
+.red-buttons{
+    flex:1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.red{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(186, 179, 179)  ;
+    border-radius: 10px ;
+    position: relative;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: brown;
+    border: 1px solid red;
+    border-radius: 50%;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.red>p{
+    color: brown;
+    font-weight: 900;
+    position: absolute;
+    left: 40%;
+    top: 100%;
+}
