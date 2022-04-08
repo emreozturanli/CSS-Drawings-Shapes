@@ -12,4 +12,4 @@
 
 ## RESULT
 
-![nintendo]()
+![nintendo](https://github.com/emreozturanli/Basic-CSS-Drawings-Shapes/blob/master/Nintendo%20Gamepad/nintendo.png)
